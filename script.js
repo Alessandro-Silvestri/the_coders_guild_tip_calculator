@@ -4,6 +4,7 @@ let tip = preTipTotal / 100 * tipPercentage;
 tip = Number(tip.toFixed(2))
 let total = preTipTotal + tip; 
 
+// show results
 console.log("TIP CALCULATOR:");
 console.log(`Cost of the meal:\t ${preTipTotal.toFixed(2)}£`);
 console.log(`${tipPercentage}%`);
